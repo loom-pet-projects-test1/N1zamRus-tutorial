@@ -2,7 +2,7 @@
 
 
 def count_words(text: str) -> int:
-    return 2
+    return len(text.split())
 
 
 def longest_word(text: str) -> int:
