@@ -2,11 +2,11 @@
 
 
 def count_words(text: str) -> int:
-    return len(text.split())
-
-
-def longest_word(text: str) -> int:
     return 0
+
+
+def longest_word(text: str) -> str:
+    return ""
 
 
 def char_frequency(text: str) -> dict[str, int]:
